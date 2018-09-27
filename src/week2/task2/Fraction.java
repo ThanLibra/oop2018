@@ -91,4 +91,11 @@ public class Fraction {
         value = value.multiply(other);
         return value;
     }
+    public boolean equals (Object obj)
+    {
+        Fraction other = (Fraction) obj;
+        return (this.numerator*this.denominator - other.denominator*other.numerator/other.gcd(other.numerator, other.denominator)==0) ? true : false;
+    
+     }
+    
 }
