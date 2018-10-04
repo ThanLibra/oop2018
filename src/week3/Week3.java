@@ -31,6 +31,6 @@ public class Week3 {
     public static String calculateBMI(double weight, double height) {
         // TODO: Viết chương trình tính chỉ số BMI và in ra kết quả đánh giá
         double values = weight / (height*height);
-        return (values < 18.5) ? "Thiếu cân" : (values >= 23 && values <= 24.99) ? "Thừa cân" : (values >= 18.5 && values <= 24.99) ? "Bình thường" : "Béo phì";
+        return (values < 18.5) ? "Thiếu cân" : (values >=23 && values < 24.99) ? "Thừa cân" : (values >= 18.5 && values < 23) ? "Bình thường" : "Béo phì";
     }
 }
