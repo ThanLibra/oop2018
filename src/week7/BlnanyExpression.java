@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package week7.task1;
+package week7;
 
 /**
  *
- * @author Minh Anh
+ * @author 
  */
 public abstract class BlnanyExpression extends Expression{
     public abstract Expression left();
