@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package week7.task2;
+package week7;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
